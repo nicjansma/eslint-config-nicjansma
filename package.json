@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-nicjansma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nic Jansma",
+  "license": "MIT"
+}
