@@ -82,7 +82,7 @@ module.exports = {
         "no-void": 2,
         "no-whitespace-before-property": 2,
         "no-with": 2,
-        "object-curly-spacing": 2,
+        "object-curly-spacing": [2, "always"],
         "quotes": [2, "double", {"avoidEscape": true }],
         "radix": 2,
         "semi": 2,
