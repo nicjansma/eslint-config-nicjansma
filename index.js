@@ -31,7 +31,6 @@ module.exports = {
         "no-catch-shadow": 2,
         "no-confusing-arrow": 2,
         "no-div-regex": 2,
-        "no-else-return": 2,
         "no-empty-function": 2,
         "no-eq-null": 2,
         "no-eval": 2,
