@@ -1,8 +1,14 @@
 {
   "name": "eslint-config-nicjansma",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./flat": "./flat.js",
+    "./flat.js": "./flat.js",
+    "./package.json": "./package.json"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"

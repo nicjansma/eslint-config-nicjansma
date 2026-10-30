@@ -22,7 +22,17 @@ module.exports = [
 ];
 ```
 
-This also works on ESLint 8.57+ if you're using `eslint.config.js`.
+Or, in an ES module config (`eslint.config.mjs`, or `"type": "module"`):
+
+```js
+import nicjansma from "eslint-config-nicjansma/flat";
+
+export default [
+    nicjansma
+];
+```
+
+This also works on ESLint 8.57+ if you're using flat config.
 
 Flat config treats `.js` files as ES modules by default. If you're linting
 plain browser scripts, set the source type after the shared config:
