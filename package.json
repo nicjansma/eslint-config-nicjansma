@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicjansma",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -8,5 +8,15 @@
     "eslintconfig"
   ],
   "author": "Nic Jansma",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "flat.js",
+    "rules.js",
+    "builtin-rules.js",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  }
 }
